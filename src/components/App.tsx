@@ -59,7 +59,7 @@ function App() {
           <article className="w-full prose prose-sm sm:prose overflow-hidden" style={{ maxWidth: '860px' }}>
             <div className="flex flex-col md:flex-row md:items-center mb-6">
               <h1 className="uppercase" style={{ margin: '0 20px 0 0' }}>{brandName}</h1>
-              <h4 className="uppercase" style={{ margin: 0 }}>Content-aware image resizing Algorithm's Implementation</h4>
+              <h4 className="uppercase" style={{ margin: 0 }}>Content-aware image resizing</h4>
             </div>
             <div className="flex flex-col md:flex-row md:items-center mb-6">
             <h4 className="uppercase" style={{ margin: '0 5px 0 0' }}>Final Year Project by </h4>

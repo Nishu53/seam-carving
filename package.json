@@ -2,11 +2,11 @@
   "name": "seam-carving",
   "version": "0.1.0",
   "private": false,
-  "author": "Oleksii Trekhleb (https://www.linkedin.com/in/trekhleb/)",
+  "author": "Nishi",
   "homepage": "https://seamcarving.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trekhleb/js-image-carver.git"
+    "url": "git+https://github.com/Aniruddha-Shriwant/seam-carving"
   },
   "dependencies": {
     "@craco/craco": "^6.1.1",
