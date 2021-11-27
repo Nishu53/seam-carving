@@ -43,11 +43,6 @@ const ImageResizer = (props: ImageResizerProps): React.ReactElement => {
     withEnergyMap = false,
   } = props;
 
-  const [imgAuthor, setImgAuthor] = useState<string | null>('ian dooley');
-  const [imgAuthorURL, setImgAuthorURL] = useState<string | null>(
-    'https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
-  );
-
   const [useNaturalSize, setUseNaturalSize] = useState<boolean>(false);
   const [imageSrc, setImageSrc] = useState<string>(defaultImgSrc);
   const [resizedImgSrc, setResizedImgSrc] = useState<string | null>(null);
@@ -85,8 +80,6 @@ const ImageResizer = (props: ImageResizerProps): React.ReactElement => {
     if (!files || !files.length) {
       return;
     }
-    setImgAuthor(null);
-    setImgAuthorURL(null);
     onReset();
     const imageURL = URL.createObjectURL(files[0]);
     setImageSrc(imageURL);
