@@ -1,12 +1,9 @@
 import React from "react";
 import ImageResizer from "./ImageResizer";
 import RootLayout from "./RootLayout";
-import PageLayout from "./PageLayout";
 import InteractivePostArea from "./InteractivePostArea";
 import { brandName } from "../constants/siteMeta";
-import styled from "styled-components";
 
-import { ReactComponent as BrandLogo } from "../assets/logo.svg";
 /* import { gitHubRepoURL, seamCarvingBlogPostURL, seamCarvingPaperURL } from '../constants/links';
 import HyperLink from './HyperLink';
 import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
@@ -53,12 +50,6 @@ function App() {
     backgroundColor: "#E6E6FA",
   };
 
-  const HeadingStyle = styled.div`
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center; /* vertical */
-  `;
-
   return (
     <RootLayout>
       <div style={Background}>
@@ -71,7 +62,7 @@ function App() {
               <h1 className="uppercase" style={{ margin: "40px 20px 0 0" }}>
                 {brandName}
               </h1>
-              {/* <BrandLogo /> */}
+
               <h4 className="uppercase" style={{ margin: "40px 20px 0 0" }}>
                 Content-aware image resizing
               </h4>
