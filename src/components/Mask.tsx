@@ -30,7 +30,7 @@ const Mask = (props: MaskProps): React.ReactElement => {
     disabled = false,
     width = 200,
     height = 200,
-    lineColor = 'rgba(255, 0, 0, 1)',
+    lineColor = '#ee0909',
     lineWidth = 16,
     lineJoin = 'round',
     backgroundColor = defaultBackgroundColor,

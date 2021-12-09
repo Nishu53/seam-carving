@@ -12,6 +12,7 @@ import {
   MAX_WIDTH_LIMIT,
   MAX_HEIGHT_LIMIT,
 } from '../utils/contentAwareResizer';
+
 import EnergyMap from './EnergyMap';
 import Seams from './Seams';
 import defaultImgSrc from '../assets/default.jpg';
